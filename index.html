@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+      <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+      <link rel="stylesheet" href="css/linearicons.css">
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/styles.css">
+      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="leaflet/leaflet.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <title>Restaurant Reviews dc063j</title>
+      <script>
+         $( document ).ready(function() {
+         $('#myModal').modal('toggle')
+         });
+      </script>
+   </head>
+   <body>
+      <di class="music">
+         <audio src="music/Marshmello ft. Bastille.mp3" autoplay loop></audio>
+      </di>
+      <!-- Modal -->
+      <div id="myModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h4 class="modal-title ">Restaurant Reviews Project - dc063j</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+               </div>
+               <div class="modal-body">
+                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <img class="d-block w-100" src="img/m1-compressed.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                           <img class="d-block w-100" src="img/m2-compressed.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                           <img class="d-block w-100" src="img/m3-compressed.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                           <img class="d-block w-100" src="img//m4-compressed.jpg" alt="Second slide">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Modal content-->
+      </div>
+      <header >
+         <nav>
+            <h1>
+            <a aria-label="Home" tabindex="1" href="/">Restaurant Reviews</a>
+         </nav>
+      </header>
+      <main id="maincontent">
+         <section id="map-container">
+            <div id="map"></div>
+         </section>
+         <section>
+            <div class="filter-options">
+               <h2>Filter Results</h2>
+               <select role="tablist" tabindex="2" id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
+                  <option value="all">All Neighborhoods</option>
+               </select>
+               <select tabindex="3" id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
+                  <option value="all">All Cuisines</option>
+               </select>
+            </div>
+            <ul id="restaurants-list" ></ul>
+         </section>
+      </main>
+      <footer id="footer" role="contentinfo">
+         <img src="img/restaurant.png" id="logo-rest-footer">
+         <div class="footer-social">
+            <a href="https://www.facebook.com/dcarrocera?ref=bookmarks"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/die87tala/"><i class="fa fa-instagram"></i></a>
+            <a href="https://github.com/diegocarrocera"><i class="fa fa-github"></i></a>
+            <a href="https://web.whatsapp.com/send?phone=5491166587945&amp;text="><i class="fa fa-whatsapp"></i></a>
+         </div>
+         || Copyright &copy; 2019 Restaurant Reviews 
+         || design: <a rel="nofollow" href="https://github.com/diegocarrocera" class="tm-footer-link">dc063j</a> 
+         || 
+      </footer>
+      <script type="application/javascript" charset="utf-8" src="leaflet/leaflet.js"></script>
+      <script type="application/javascript" charset="utf-8" src="js/dbhelper.js"></script>
+      <script type="application/javascript" charset="utf-8" src="js/main.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="/js/bootstrap.min.js"></script>
+   </body>
+</html>
+

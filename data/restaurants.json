@@ -1,0 +1,486 @@
+{
+  "restaurants": [{
+    "id": 1,
+    "name": "Asai Ramen",
+    "neighborhood": "La Plata",
+    "photograph": "1.jpg",
+    "address": "Calle 57, La Plata, B.S.A.S,Arg.",
+    "phone": "Phone:  +54 221 421-4592",
+    "latlng": {
+      "lat": -34.92356,
+      "lng": -57.95006
+    },
+    "cuisine_type": "Asian food",
+    "operating_hours": {
+      "Monday": "5:30 pm - 00:00 am",
+      "Tuesday": "5:30 pm - 00:00 am",
+      "Wednesday": "5:30 pm - 00:00 am",
+      "Thursday": "5:30 pm - 00:00 am",
+      "Friday": "5:30 pm - 00:00 am",
+      "Saturday": "5:30 pm - 00:00 am",
+      "Sunday": "Close"
+    },
+    "reviews": [{
+        "name": "Henri Charrière",
+        "date": "February  26, 2019",
+        "rating": 5,
+        "comments": "Excelente comida y atención. Precios razonables. Muy buena decoración. En resumen, un lugar con buen estilo y muy recomendado! En la foto, Shoyu Ramen."
+      },
+      {
+        "name": "Silvia Caprile",
+        "date": "March 2, 2019",
+        "rating": 5,
+        "comments": "Excelente. Pedimos dos ramen y uno mejor que el otro. La atención  también impecable. Altamente recomendable."
+      },
+      {
+        "name": "Brenda Altimari",
+        "date": "March 5, 2019",
+        "rating": 5,
+        "comments": "Excelente lugar! La comida muy rica. Muy buena atención. Acogedor y accesible. Super recomendable!."
+      }
+    ]
+  }, {
+    "id": 2,
+    "name": "Antares",
+    "neighborhood": "La Plata",
+    "photograph": "2.jpg",
+    "address": "Calle 56,La Plata, B.S.A.S, Arg.",
+    "phone": "Phone:  +54 221 423-0909",
+    "latlng": {
+      "lat": -34.92195,
+      "lng": -57.94988
+    },
+    "cuisine_type": "Beer and pizza",
+    "operating_hours": {
+      "Monday": "18:00 pm - 2:00 am",
+      "Tuesday": "18:00 pm - 2:00 am",
+      "Wednesday": "18:00 pm - 2:00 am",
+      "Thursday": "18:00 pm - 4:30 am",
+      "Friday": "18:00 pm - 4:30 am",
+      "Saturday": "18:00 pm - 4:30 am",
+      "Sunday": "18:00 pm - 2:00 am"
+    },
+    "reviews": [{
+        "name": "Shine On",
+        "date": "february 26, 2019",
+        "rating": 5,
+        "comments": "El mejor Antares al que fui lejos!!! Bocha de opciones vegetarianas en el menú. La onda de los que atienden es suprema. La música increíble. El lugar muy muy bueno. Es lo más este bar ... Amo Antares en general si hay uno en la ciudad que estoy lo visito pero este es el mejor del país."
+      },
+      {
+        "name": "Gabriel Parentella ",
+        "date": "january 10, 2019",
+        "rating": 4,
+        "comments": "Un buen lugar para disfrutar cervezas con amigos. Acogedor, pero algo bullicioso. Variedad de cervezas y comidas. Consejo: ir temprano para conseguir lugar.."
+      },
+      {
+        "name": "Franco Kiverling",
+        "date": "December 10, 2018",
+        "rating": 4,
+        "comments": "Buena atención. Servicio rápido y buen menú. Las mejores cervezas artesanales están acá."
+      }
+    ]
+  }, {
+    "id": 3,
+    "name": "Runnie's",
+    "neighborhood": "La Loma",
+    "photograph": "3.jpg",
+    "address": "Calle 10, La Plata, B.S.A.S, Arg.",
+    "phone": "Phone: +54 221 422-8282",
+    "latlng": {
+      "lat": -34.91586,
+      "lng": -57.95537
+    },
+    "cuisine_type": "American food",
+    "operating_hours": {
+      "Monday": "7:30 pm –1:00 am",
+      "Tuesday": "7:30 pm –1:00 am ",
+      "Wednesday": "7:30 pm –1:00 am ",
+      "Thursday": "7:30 pm –1:00 am ",
+      "Friday": "7:30 pm –1:00 am ",
+      "Saturday": "7:30 pm –1:00 am ",
+      "Sunday": "Closed"
+    },
+    "reviews": [{
+        "name": "Lula Varela",
+        "date": "October 26, 2018",
+        "rating": 4,
+        "comments": "El servicio y la comida muy bueno. El ambiente agradable. Súper recomendable."
+      },
+      {
+        "name": "Iker Ulloa",
+        "date": "October 16, 2018",
+        "rating": 4,
+        "comments": "El lugar limpio y cómodo. Muy agradable para estar."
+      },
+      {
+        "name": "Emily",
+        "date": "October 26, 2016",
+        "rating": 1,
+        "comments": "Excelente ambiente. Pésimo servicio de cena. Y CARISIMO."
+      }
+    ]
+  }, {
+    "id": 4,
+    "name": "Sushi Club",
+    "neighborhood": "City Bell",
+    "photograph": "4.jpg",
+    "address": "Calle 13 230, La Plata, B.S.A.S, Arg.",
+    "phone": "Phone: +54 221 410-7874",
+    "latlng": {
+      "lat": -34.86889,
+      "lng": -58.04519
+    },
+    "cuisine_type": "Japanese food",
+    "operating_hours": {
+      "Monday": "18:00 am - 00:00 am",
+      "Tuesday": "18:00 am - 00:00 am",
+      "Wednesday": "18:00 am - 00:00 am",
+      "Thursday": "18:00 am - 00:00 am",
+      "Friday": "18:00 am - 00:00 am",
+      "Saturday": "18:00 am - 00:00 am",
+      "Sunday": "18:00 am - 00:00 am"
+    },
+    "reviews": [{
+        "name": "Steve",
+        "date": "March 26, 2017",
+        "rating": 3,
+        "comments": "No es mi tipo de sushi, me gusta algo mas tradicional. Pero es una buena alternativa."
+      },
+      {
+        "name": "Allen",
+        "date": "October 6, 2018",
+        "rating": 5,
+        "comments": "Muy buenooo. Es sólo para hacer pedidos y llevárselo cada uno sin delibery sale más barato"
+      },
+      {
+        "name": "David",
+        "date": "December 16, 2016",
+        "rating": 4,
+        "comments": "Muy rico! Me pareció algo caro por la cantidad, pero buenísimo."
+      }
+    ]
+  }, {
+    "id": 5,
+    "name": "El Retiro",
+    "neighborhood": "San Carlos",
+    "photograph": "5.jpg",
+    "address": "Av. 44, La Plata, B.S.A.S, Arg.",
+    "phone": "Phone:  +54 221 479-8504",
+    "latlng": {
+      "lat": -34.95851,
+      "lng": -58.00853
+    },
+    "cuisine_type": "Argentine food",
+    "operating_hours": {
+      "Monday": "12:00 pm –16:00 pm , 20:45pm – 0:00 am",
+      "Tuesday": "12:00 pm –16:00 pm , 20:45pm – 0:00 am",
+      "Wednesday": "12:00 pm –16:00 pm , 20:45pm – 0:00 am",
+      "Thursday": "12:00 pm –16:00 pm , 20:45pm – 0:00 am",
+      "Friday": "12:00 pm –16:00 pm , 20:45pm – 0:00 am",
+      "Saturday": "12:00 pm –16:00 pm , 20:45pm – 0:00 am",
+      "Sunday": "12:00 pm –16:00 pm , 20:45pm – 0:00 am"
+    },
+    "reviews": [{
+        "name": "Martin Lobo",
+        "date": "October 26, 2016",
+        "rating": 5,
+        "comments": "El mejor lugar! La comida es increíble todo!!!"
+      },
+      {
+        "name": "santino noya",
+        "date": "October 26, 2016",
+        "rating": 3,
+        "comments": "La comida es buena, pero es caro, los vinos son más que caros, 4000 tres adultos y dos niños."
+      },
+      {
+        "name": "Sergio Fernandez",
+        "date": "October 26, 2016",
+        "rating": 4,
+        "comments": "Tranqui. Bien. Sigue caro y anacrónico con los tiempos vividos. He ido a lugares que han acomodado el precio y ofrecen mejores bebidas en precio. Botellas grandes a precios razonables"
+      }
+    ]
+  }, {
+    "id": 6,
+    "name": "Don Clemente",
+    "neighborhood": "San Carlos",
+    "photograph": "6.jpg",
+    "address": "Av. 44, La Plata, B.S.A.S, Arg.",
+    "phone": "Phone:  +54 221 470-0980",
+    "latlng": {
+      "lat": -34.95176,
+      "lng": -58.00079
+    },
+    "cuisine_type": "Varieties of food",
+    "operating_hours": {
+      "Monday": "Closed",
+      "Tuesday": "12:00 pm –15:00 pm , 20:30 pm – 0:00 am",
+      "Wednesday": "12:00 pm –15:00 pm , 20:30 pm – 0:00 am",
+      "Thursday": "12:00 pm –15:00 pm , 20:30 pm – 0:00 am",
+      "Friday": "12:00 pm –15:00 pm , 20:30 pm – 0:00 am",
+      "Saturday": "12:00 pm –15:00 pm , 20:30 pm – 0:00 am",
+      "Sunday": "12:00 pm –15:00 pm , 20:30 pm – 0:00 am"
+    },
+    "reviews": [{
+        "name": "Carlos  ramirez",
+        "date": "january 10, 2019",
+        "rating": 5,
+        "comments": "Excelente atención. Gran variedad de comidas, ideal para vegetarianos, mucha oferta platos con  frutas y verduras."
+      },
+      {
+        "name": "Diego bini",
+        "date": "February  2, 2019",
+        "rating": 5,
+        "comments": "Buena atención, variedad de comida con sistema tenedor libre. Precio medio. Cómodo lugar. Agradecido"
+      },
+      {
+        "name": "Carlos moya",
+        "date": "October 26, 2016",
+        "rating": 5,
+        "comments": "Excelente lugar. Tenedor libre, comida fresca, rica y variada. Lugar muy agradable y con excelente atención. Incluye variedad de postres y bebidas."
+      }
+    ]
+  }, {
+    "id": 7,
+    "name": "McDonald's",
+    "neighborhood": "Gonnet",
+    "photograph": "7.jpg",
+    "address": "Centenario, La Plata, B.S.A.S,Arg.",
+    "phone": "Phone:  +54 221 484-6106",
+    "latlng": {
+      "lat": -34.88298,
+      "lng": -58.00684
+    },
+    "cuisine_type": "Fast food",
+    "operating_hours": {
+      "Monday": "7:30 am - 00:00 am",
+      "Tuesday": "7:30 am - 00:00 am",
+      "Wednesday": "7:30 am - 00:00 am",
+      "Thursday": "7:30 am - 00:00 am",
+      "Friday": "7:30 am - 00:00 am",
+      "Saturday": "Open 24 hours",
+      "Sunday": "7:30 am - 00:00 am"
+    },
+    "reviews": [{
+        "name": "Gotika Demente",
+        "date": "March 6, 2019",
+        "rating": 4,
+        "comments": "Bueno este es otro tema en hamburguesas ... No puedo negar que son exquisitas y aparte de eso el único lugar en que venden la Hamburguesa."
+      },
+      {
+        "name": "Pablo Vitali",
+        "date": "March 2, 2019",
+        "rating": 5,
+        "comments": "Muy bueno el lugar. Tiene pelotero con laberinto y tobogán. Ideal para entretenimiento de los más chiquitos"
+      },
+      {
+        "name": "leandro balbin",
+        "date": "March 4, 2019",
+        "rating": 4,
+        "comments": "Para ser un lugar de comidas rápidas, cumple con el objetivo. La atención es buena, la comida es rica y sale en poco tiempo."
+      }
+    ]
+  }, {
+    "id": 8,
+    "name": "Casablanca",
+    "neighborhood": "La Plata",
+    "photograph": "8.jpg",
+    "address": "Calle 55 688,La Plata, B.S.A.S, Arg.",
+    "phone": "Phone:  +54 221 422-4443",
+    "latlng": {
+      "lat": -34.91900,
+      "lng": -57.94824
+    },
+    "cuisine_type": "Italian food",
+    "operating_hours": {
+      "Monday": "11:30 am - 3:00 pm, 5:30 pm - 12:00 am",
+      "Tuesday": "11:30 am - 3:00 pm, 5:30 pm - 12:00 am",
+      "Wednesday": "11:30 am - 3:00 pm, 5:30 pm - 12:00 am",
+      "Thursday": "11:30 am - 3:00 pm, 5:30 pm - 12:00 am",
+      "Friday": "11:30 am - 3:00 pm, 5:30 pm - 12:30 am",
+      "Saturday": "10:00 am - 3:00 pm, 5:30 pm - 12:30 am",
+      "Sunday": "10:00 am - 3:00 pm, 5:30 pm - 12:00 pm"
+    },
+    "reviews": [{
+        "name": "Steve",
+        "date": "October 26, 2016",
+        "rating": 4,
+        "comments": "Ambiente agradable y comida fresca y deliciosa, muy buena atención!"
+      },
+      {
+        "name": "Loren",
+        "date": "October 26, 2016",
+        "rating": 4,
+        "comments": "Buen lugar tradicional, buena pizza, ricas pastas."
+      },
+      {
+        "name": "Lori",
+        "date": "October 26, 2016",
+        "rating": 1,
+        "comments": "Pésima. La cerveza tirada agria. La Copa de vino con borra y mal gusto. La mitad de los platos pedidos no había.  La atención deja mucho que desear."
+      }
+    ]
+  }, {
+    "id": 9,
+    "name": "Machu Picchu",
+    "neighborhood": "La Plata",
+    "photograph": "9.jpg",
+    "address": "Plaza Italia 61, La Plata, B.S.A.S, Arg.",
+    "phone": "Phone: +54 221 423-5282",
+    "latlng": {
+      "lat": -34.91043,
+      "lng": -57.95623
+    },
+    "cuisine_type": "Peruvian food",
+    "operating_hours": {
+      "Monday": "5:00 pm - 00:00 am",
+      "Tuesday": "5:00 pm - 00:00 am",
+      "Wednesday": "5:00 pm - 00:00 am",
+      "Thursday": "5:00 pm - 00:00 am",
+      "Friday": "5:00 pm - 01:00 am",
+      "Saturday": "5:00 pm - 00:00 am",
+      "Sunday": "5:00 pm - 00:00 am"
+    },
+    "reviews": [{
+        "name": "Rocio Parra",
+        "date": "October 26, 2016",
+        "rating": 2,
+        "comments": "El lugar es lindo, está limpio y es cómodo. La comida en particular a mí mamá le trajeron un POLLO demasiado duro y con mal sabor que le tuvieron que cambiar porque era realmente incomible."
+      },
+      {
+        "name": "Milton David Arcaya",
+        "date": "October 26, 2016",
+        "rating": 4,
+        "comments": "He ido 2 veces y siempre he cenado muy bien. La comida es muy abundante y rica."
+      },
+      {
+        "name": "cesar guerrero",
+        "date": "October 26, 2016",
+        "rating": 1,
+        "comments": "La comida es  buena, pero sólo pudimos comer uno de los platos ya que se demoraron 50 minutos en traerlo y el otro lo cancelamos por la demora."
+      }
+    ]
+  }, {
+    "id": 10,
+    "name": "Tex Mex Burritos",
+    "neighborhood": "La Plata",
+    "photograph": "10.jpg",
+    "address": "Av. 19, La Plata, B.S.A.S, Arg.",
+    "phone": "Phone:  +54 221 473-5678",
+    "latlng": {
+      "lat": -34.93019,
+      "lng": -57.95621
+    },
+    "cuisine_type": "Mexican food",
+    "operating_hours": {
+      "Monday": "5:00 pm - 12:00 am",
+      "Tuesday": "5:00 pm - 12:00 am",
+      "Wednesday": "5:00 pm - 12:00 am",
+      "Thursday": "5:00 pm - 12:00 am",
+      "Friday": "5:00 pm - 12:00 am",
+      "Saturday": "11:00 am - 12:00 am",
+      "Sunday": "11:00 am - 12:00 am"
+    },
+    "reviews": [{
+        "name": "PabloF.",
+        "date": "A day ago",
+        "rating": 5,
+        "comments": "Muy buena atencion . Rapida. Prepaeado a la vista. Abundante y de calidad muy recomendable."
+      },
+      {
+        "name": "Germán haag",
+        "date": "A day ago",
+        "rating": 5,
+        "comments": "Excelente. Altamente recomendable y solo los esperas un rato"
+      },
+      {
+        "name": "Leandro Aguilar",
+        "date": "A day ago",
+        "rating": 4,
+        "comments": "horribles, sin sabor sin condimentos, no tenia ni porotos, lechuga, ni era picante como pedi. Una critica constructiva, pero al menos yo no compro mas ahi."
+      }
+    ]
+  },{
+    "id": 11,
+    "name": "El Boyo",
+    "neighborhood": "Villa Elisa",
+    "photograph": "11.jpg",
+    "address": "Calle 6,La Plata, B.S.A.S, Arg.",
+    "phone": "Phone:  +54 221 473-0927",
+    "latlng": {
+      "lat": -34.85032,
+      "lng": -58.08704
+    },
+    "cuisine_type": "Pizza",
+    "operating_hours": {
+      "Monday": "18:00 pm –0:00 am",
+      "Tuesday": "18:00 pm –0:00 am",
+      "Wednesday": "18:00 pm –0:00 am",
+      "Thursday": "18:00 pm –0:00 am",
+      "Friday": "18:00 pm –0:00 am",
+      "Saturday": "18:00 pm –0:00 am",
+      "Sunday": "18:00 pm –0:00 am"
+    },
+    "reviews": [{
+        "name": "Agustin Corbetto",
+        "date": "one day",
+        "rating": 5,
+        "comments": "Un muy buen lugar para comer. Excelente calidad de productos, una carta variada y tentadora con precios accesibles. Para los amantes de comer en abundancia. La ubicación es cómoda. Suele ser muy concurrida, recomiendo ir con tiempo y con hambre!"
+      },
+      {
+        "name": "Carla Gorriti",
+        "date": "one month",
+        "rating": 5,
+        "comments": "El ambiente es muy pintoresco, una vuelta a los almacenes de principios del 1900. La atención es muy buena, los mozos muy amables. Las órdenes salen rápido."
+      },
+      {
+        "name": "Laureano Cardozo",
+        "date": "one month",
+        "rating": 4,
+        "comments": "Las pizzas son muy ricas la atención es buena . Lo que si el punto a destacar que para mí no es bueno es que hace mucho calor. En el salón central no tiene aire acondicionado lo demás está muy bien."
+      }
+    ]
+  },{
+    "id": 12,
+    "name": "El Vagon",
+    "neighborhood": "Los Hornos",
+    "photograph": "12.jpg",
+    "address": "Av. 31, La Plata, B.S.A.S, Arg.",
+    "phone": "Phone: +54 221 479-4815",
+    "latlng": {
+      "lat": -34.93904,
+      "lng": -57.97346
+    },
+    "cuisine_type": "Varieties of food",
+    "operating_hours": {
+      "Monday": "5:00 pm - 12:00 am",
+      "Tuesday": "5:00 pm - 12:00 am",
+      "Wednesday": "5:00 pm - 12:00 am",
+      "Thursday": "5:00 pm - 12:00 am",
+      "Friday": "5:00 pm - 12:00 am",
+      "Saturday": "11:00 am - 12:00 am",
+      "Sunday": "11:00 am - 12:00 am"
+    },
+    "reviews": [{
+        "name": "Zoe Jaria",
+        "date": "one week",
+        "rating": 1,
+        "comments": "La moza se olvidó de tomarnos el pedido, se olvidó de traer las bebidas, no nos pusieron servilletas. La mollejas llegaron crudas y el chorizo y la morcilla estaban fríos. Cuando trajeron la bebida estaba tibia y se olvidaron una bebida, una guarnición, y el matambre era como la cubierta de un auto. Sin duda un desastre y no volveremos al lugar."
+      },
+      {
+        "name": "Randy",
+        "date": "one week",
+        "rating": 4,
+        "comments": "Buen ambiente, comida abundante y rica. Atención buena, podría mejorarse, pero no le quita calidad. Un buen lugar para cenar tanto solo como en familia."
+      },
+      {
+        "name": "Federico Villanueva",
+        "date": "two weeks",
+        "rating":1,
+        "comments": "Esperé 40 minutos por una milanesa napolitana (bastante fea y  dura), recalentada en el microondas (lo ví yo cómo la sacaban del micro,no me lo contó nadie).  Me voy muy decepcionado,me lo habían pintado como un gran lugar. NO VUELVO MÁS.."
+      }
+    ]
+  }
+]
+  
+  
+}
